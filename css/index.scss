@@ -1,0 +1,16 @@
+.header {
+  width: auto;
+  background-color: #371713;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  min-height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  h1, h4 {
+    color: white;
+  }
+}

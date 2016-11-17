@@ -97,3 +97,16 @@
 .hljs-strong {
   font-weight: bold;
 }
+
+.markdown li {
+  background: url('../img/fox-icon.png') no-repeat left top;
+  padding: 0px 0px 0px 40px;
+  list-style: none;
+  margin: 0;
+  font-size: 160%;
+  font-weight: bold;
+}
+
+.markdown ul {
+  margin-left: 0px;
+}

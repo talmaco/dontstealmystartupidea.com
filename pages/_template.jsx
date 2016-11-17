@@ -4,7 +4,7 @@ import { Link } from 'react-router'
 import { prefixLink } from 'gatsby-helpers'
 import Headroom from 'react-headroom'
 import '../css/markdown-styles'
-
+import Header from '../components/header'
 import { rhythm } from '../utils/typography'
 
 module.exports = React.createClass({
@@ -15,33 +15,8 @@ module.exports = React.createClass({
   },
   render () {
     return (
-      <div>
-        <Headroom
-          wrapperStyle={{
-            marginBottom: rhythm(1),
-          }}
-          style={{
-            background: 'lightgray',
-          }}
-        >
-          <Container
-            style={{
-              maxWidth: 960,
-              paddingTop: 0,
-              padding: `${rhythm(1)} ${rhythm(3/4)}`,
-            }}
-          >
-            <Link
-              to={prefixLink('/')}
-              style={{
-                color: 'black',
-                textDecoration: 'none',
-              }}
-            >
-              Gatsby!!!
-            </Link>
-          </Container>
-        </Headroom>
+      <div style={{ backgroundColor: '#f7f8f3', minHeight: '100vh' }}>
+        <Header />
         <Container
           style={{
             maxWidth: 960,
